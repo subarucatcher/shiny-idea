@@ -1,6 +1,6 @@
 struct TrieNode
 {
-
+//yea
     struct TrieNode *children[26];
 
     bool isEnd;
