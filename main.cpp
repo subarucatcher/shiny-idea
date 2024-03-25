@@ -21,7 +21,7 @@ struct TrieNode *getNode()
 }
 
  bool search(string word)
-    {
+    {//mojo
         struct TrieNode *pcrawl = root;
         for (int i = 0; i < word.length(); i++)
         {
